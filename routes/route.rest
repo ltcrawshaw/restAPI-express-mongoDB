@@ -1,0 +1,28 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/6078c5fda3d343f1138ea4c8
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Tits Guy",
+    "subscribedToChannel": "Swag"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/6078c5dca3d343f1138ea4c6
+
+###
+
+PATCH http://localhost:3000/subscribers/6078c5fda3d343f1138ea4c8
+Content-Type: application/json
+
+{
+    "name": " Dick Kick Jones"
+
+}
